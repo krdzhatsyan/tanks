@@ -1,0 +1,41 @@
+.game {
+    width: 100%;
+    height: 100%;
+}
+
+#canvas {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1000;
+    margin: auto;
+}
+
+.exit__btn {
+    position: relative;
+    z-index: 99;
+    cursor: pointer;
+    background-image: url(../../assets/img/blue-btn.png);
+    background-size: cover;
+    width: 103px; 
+    height: 40px;
+    margin-top: 20px;
+    left: 0;
+    opacity: .5;
+    transition: opacity .2s linear;
+}
+
+.exit__btn:hover {
+    top: 0;
+    opacity: 1;
+}
+
+#userInfo {
+    font-family: VT323, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: white;
+    text-align: center;
+}
+  

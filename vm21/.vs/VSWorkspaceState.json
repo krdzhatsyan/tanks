@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\api",
+    "\\api\\application",
+    "\\api\\application\\db",
+    "\\api\\application\\user",
+    "\\api\\application\\vmech",
+    "\\api\\application\\vmech\\types"
+  ],
+  "SelectedNode": "\\api\\application\\user\\User.php",
+  "PreviewInSolutionExplorer": false
+}

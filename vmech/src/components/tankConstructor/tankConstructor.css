@@ -1,0 +1,89 @@
+.tankConstructor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    width: 300px;
+    margin: auto;
+    color: #fff;
+    height: 100%;
+    font-family: VT323, sans-serif;
+}
+
+.rating{
+    color:#fff;
+    font-size:24px;
+    border: solid 4px #fff;
+    width: 150px;
+    text-align: center;
+    position: fixed;
+    right: 20%
+}
+
+.ratingDeath{
+    background-color: #f00;
+}
+
+.ratingKill{
+    background-color: rgb(65, 76, 124);
+}
+
+#ratingName{
+    color: #fff;
+    font-size: 36px;
+    border: solid 2px #fff;
+}
+
+.name__type {
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+}
+  
+.cost {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+} 
+  
+
+.constructorImages {
+    position: relative;
+    width: 90px;
+    margin: 0 20px;
+}
+
+[type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+[type=radio] + img {
+    cursor: pointer;
+}
+
+[type=radio]:checked + img {
+    outline: 3px solid #f00;
+}
+
+.start__btn {
+    position: relative;
+    left: 0;
+    z-index: 10000;
+    background-image: url(../../assets/img/green-btn2.png);
+    width: 103px; 
+    height: 40px;
+    background-size: cover;
+    opacity: .5;
+    transition: opacity .2s linear;
+    margin-top: 40px;
+    
+    cursor: pointer;
+}
+.start__btn:hover {
+    top: 0;
+    opacity: 1;
+}
+

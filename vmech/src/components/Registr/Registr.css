@@ -1,0 +1,9 @@
+.registr {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: 800px;
+    background-color: rgba(68, 91, 112, 0.397);
+    margin: 0 20px;
+    left: 0;
+}
